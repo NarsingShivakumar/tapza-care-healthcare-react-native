@@ -1,0 +1,388 @@
+{
+  "version": 2,
+  "theme": {
+    "primary": "#8B4B21",
+    "secondary": "#CA6D34",
+    "background": "#FFF8EF",
+    "surface": "#FFFEFA",
+    "textPrimary": "#553521",
+    "textSecondary": "#876E55",
+    "accent": "#E7A93F",
+    "festival": {
+      "name": {
+        "en": "Diwali Care Days",
+        "hi": "दिवाली केयर डेज़",
+        "te": "దీపావళి కేర్ డేస్"
+      },
+      "greeting": {
+        "en": "Wishing your family good health and bright days",
+        "hi": "आपके परिवार को स्वस्थ और उज्ज्वल दिनों की शुभकामनाएँ",
+        "te": "మీ కుటుంబానికి ఆరోగ్యకరమైన, ఆనందమయమైన రోజుల శుభాకాంక్షలు"
+      },
+      "bannerImageUrl": "https://images.unsplash.com/photo-1718476971217-677d43112daa?w=460&auto=format&fit=crop"
+    },
+    "tokens": {
+      "onPrimary": "#FFFFFF",
+      "border": "#F4DFC0",
+      "muted": "#FFF5E6",
+      "success": "#167F62",
+      "danger": "#B64040",
+      "warning": "#AF612F",
+      "overlay": "#44230B88",
+      "space": {
+        "xs": 4,
+        "sm": 8,
+        "md": 12,
+        "lg": 16,
+        "xl": 24,
+        "xxl": 32
+      },
+      "font": {
+        "caption": 12,
+        "body": 15,
+        "label": 14,
+        "title": 19,
+        "heading": 24,
+        "hero": 32
+      },
+      "radius": {
+        "sm": 8,
+        "md": 12,
+        "lg": 18,
+        "xl": 24,
+        "pill": 100
+      }
+    }
+  },
+  "tabs": [
+    {
+      "id": "home",
+      "label": {
+        "en": "Home",
+        "hi": "होम",
+        "te": "హోమ్"
+      },
+      "icon": "home",
+      "screen": "home"
+    },
+    {
+      "id": "bookings",
+      "label": {
+        "en": "Bookings",
+        "hi": "बुकिंग",
+        "te": "బుకింగ్స్"
+      },
+      "icon": "calendar",
+      "screen": "bookings"
+    },
+    {
+      "id": "prescriptions",
+      "label": {
+        "en": "Health records",
+        "hi": "स्वास्थ्य रिकॉर्ड",
+        "te": "ఆరోగ్య రికార్డులు"
+      },
+      "icon": "file",
+      "screen": "prescriptions"
+    },
+    {
+      "id": "profile",
+      "label": {
+        "en": "You",
+        "hi": "आप",
+        "te": "మీరు"
+      },
+      "icon": "user",
+      "screen": "profile"
+    }
+  ],
+  "sections": [
+    {
+      "id": "fest-hero",
+      "type": "hero_banner",
+      "background": {
+        "kind": "gradient",
+        "value": "#FFE1AA|#FFF2D7"
+      },
+      "title": {
+        "en": "A festival of good health",
+        "hi": "अच्छे स्वास्थ्य का त्योहार",
+        "te": "మంచి ఆరోగ్యానికి పండుగ"
+      },
+      "items": [
+        {
+          "eyebrow": {
+            "en": "DIWALI CARE DAYS ✨",
+            "hi": "दिवाली केयर डेज़ ✨",
+            "te": "దీపావళి కేర్ డేస్ ✨"
+          },
+          "greeting": {
+            "en": "Celebrate joy. Stay healthy.",
+            "hi": "खुशियाँ मनाएँ। स्वस्थ रहें।",
+            "te": "ఆనందంగా జరుపుకోండి. ఆరోగ్యంగా ఉండండి."
+          },
+          "subtitle": {
+            "en": "A little more care for you and everyone at home.",
+            "hi": "आपके और आपके परिवार के लिए थोड़ी अतिरिक्त देखभाल।",
+            "te": "మీకు, మీ ఇంటివారికి మరింత ఆరోగ్య సంరక్షణ."
+          },
+          "cta": {
+            "en": "Explore festive care",
+            "hi": "त्योहार की सेवाएँ देखें",
+            "te": "పండుగ ఆరోగ్య సేవలు చూడండి"
+          },
+          "icon": "sun"
+        }
+      ]
+    },
+    {
+      "id": "fest-offer",
+      "type": "offer_strip",
+      "background": {
+        "kind": "gradient",
+        "value": "#9B5025|#C46B31"
+      },
+      "title": {
+        "en": "Diwali special",
+        "hi": "दिवाली विशेष",
+        "te": "దీపావళి ప్రత్యేకం"
+      },
+      "items": [
+        {
+          "message": {
+            "en": "Festive family health checks starting at ₹299.",
+            "hi": "त्योहार पर परिवार की स्वास्थ्य जाँच ₹299 से शुरू।",
+            "te": "పండుగ సందర్భంగా కుటుంబ ఆరోగ్య పరీక్షలు ₹299 నుండి."
+          },
+          "icon": "gift",
+          "cta": {
+            "en": "Book a check",
+            "hi": "जाँच बुक करें",
+            "te": "పరీక్ష బుక్ చేయండి"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fest-service",
+      "type": "service_grid",
+      "background": {
+        "kind": "color",
+        "value": "#FFF7E9"
+      },
+      "title": {
+        "en": "Care for the celebrations",
+        "hi": "त्योहार पर सेहत की देखभाल",
+        "te": "పండుగల సమయంలో ఆరోగ్య సంరక్షణ"
+      },
+      "items": [
+        {
+          "id": "family-check",
+          "name": {
+            "en": "Family wellness package",
+            "hi": "परिवार स्वास्थ्य पैकेज",
+            "te": "కుటుంబ ఆరోగ్య ప్యాకేజీ"
+          },
+          "priceInr": 899,
+          "icon": "users",
+          "badge": {
+            "en": "FESTIVE PICK",
+            "hi": "त्योहार की पसंद",
+            "te": "పండుగ ప్రత్యేకం"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=480&auto=format&fit=crop"
+        },
+        {
+          "id": "bp",
+          "name": {
+            "en": "BP & wellness check",
+            "hi": "बीपी और स्वास्थ्य जाँच",
+            "te": "బీపీ మరియు ఆరోగ్య పరీక్ష"
+          },
+          "priceInr": 199,
+          "icon": "activity",
+          "imageUrl": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=480&auto=format&fit=crop"
+        },
+        {
+          "id": "diabetes",
+          "name": {
+            "en": "Diabetes screening",
+            "hi": "मधुमेह जाँच",
+            "te": "మధుమేహ పరీక్ష"
+          },
+          "priceInr": 499,
+          "icon": "heart",
+          "imageUrl": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=480&auto=format&fit=crop"
+        },
+        {
+          "id": "cbc",
+          "name": {
+            "en": "Complete blood count",
+            "hi": "पूर्ण रक्त जाँच (CBC)",
+            "te": "పూర్తి రక్త పరీక్ష (CBC)"
+          },
+          "priceInr": 349,
+          "icon": "flask",
+          "imageUrl": "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=480&auto=format&fit=crop"
+        }
+      ]
+    },
+    {
+      "id": "fest-categories",
+      "type": "category_chips",
+      "background": {
+        "kind": "color",
+        "value": "#FFF8EF"
+      },
+      "title": {
+        "en": "Choose your care",
+        "hi": "अपनी सेवा चुनें",
+        "te": "మీ సేవను ఎంచుకోండి"
+      },
+      "items": [
+        {
+          "id": "lab",
+          "label": {
+            "en": "Health tests",
+            "hi": "स्वास्थ्य जाँच",
+            "te": "ఆరోగ్య పరీక్షలు"
+          },
+          "icon": "flask"
+        },
+        {
+          "id": "consult",
+          "label": {
+            "en": "Doctor visits",
+            "hi": "डॉक्टर विज़िट",
+            "te": "వైద్యుని సందర్శనలు"
+          },
+          "icon": "stethoscope"
+        },
+        {
+          "id": "vaccines",
+          "label": {
+            "en": "Vaccines",
+            "hi": "टीके",
+            "te": "టీకాలు"
+          },
+          "icon": "syringe"
+        },
+        {
+          "id": "pharmacy",
+          "label": {
+            "en": "Medicines",
+            "hi": "दवाएँ",
+            "te": "మందులు"
+          },
+          "icon": "pill"
+        }
+      ]
+    },
+    {
+      "id": "fest-doctors",
+      "type": "doctor_carousel",
+      "background": {
+        "kind": "color",
+        "value": "#FFFEFA"
+      },
+      "title": {
+        "en": "Here for you this season",
+        "hi": "इस त्योहार आपके साथ",
+        "te": "ఈ పండుగలో మీ తోడు"
+      },
+      "items": [
+        "dr_meera",
+        "dr_ananya"
+      ]
+    },
+    {
+      "id": "fest-quick",
+      "type": "quick_actions",
+      "background": {
+        "kind": "gradient",
+        "value": "#FFF1DB|#FFF9F0"
+      },
+      "title": {
+        "en": "Your everyday essentials",
+        "hi": "हर दिन की ज़रूरी सेवाएँ",
+        "te": "మీ రోజువారీ అవసరాలు"
+      },
+      "items": [
+        {
+          "id": "reminders",
+          "label": {
+            "en": "Medicine plan",
+            "hi": "दवा की योजना",
+            "te": "మందుల ప్రణాళిక"
+          },
+          "icon": "bell",
+          "subtitle": {
+            "en": "Stay on schedule",
+            "hi": "समय पर दवा लें",
+            "te": "సమయానికి మందులు తీసుకోండి"
+          }
+        },
+        {
+          "id": "prescriptions",
+          "label": {
+            "en": "Prescriptions",
+            "hi": "पर्चियाँ",
+            "te": "ప్రిస్క్రిప్షన్లు"
+          },
+          "icon": "file",
+          "subtitle": {
+            "en": "Your health records",
+            "hi": "आपके स्वास्थ्य रिकॉर्ड",
+            "te": "మీ ఆరోగ్య రికార్డులు"
+          }
+        },
+        {
+          "id": "book",
+          "label": {
+            "en": "Book a visit",
+            "hi": "विज़िट बुक करें",
+            "te": "సందర్శన బుక్ చేయండి"
+          },
+          "icon": "calendar",
+          "subtitle": {
+            "en": "Doctors nearby",
+            "hi": "आपके आस-पास डॉक्टर",
+            "te": "మీకు సమీపంలోని వైద్యులు"
+          }
+        },
+        {
+          "id": "family",
+          "label": {
+            "en": "Family care",
+            "hi": "परिवार की देखभाल",
+            "te": "కుటుంబ సంరక్షణ"
+          },
+          "icon": "users",
+          "subtitle": {
+            "en": "Together, healthier",
+            "hi": "साथ मिलकर बेहतर स्वास्थ्य",
+            "te": "కలిసి మరింత ఆరోగ్యంగా"
+          }
+        }
+      ]
+    },
+    {
+      "id": "future",
+      "type": "future_new_widget_from_cms",
+      "background": {
+        "kind": "color",
+        "value": "#FFFFFF"
+      },
+      "title": {
+        "en": "Experimental CMS section",
+        "hi": "प्रयोगात्मक CMS सेक्शन",
+        "te": "ప్రయోగాత్మక CMS విభాగం"
+      },
+      "items": [
+        {
+          "anything": true
+        }
+      ]
+    }
+  ]
+}

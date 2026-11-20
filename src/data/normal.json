@@ -1,0 +1,368 @@
+{
+  "version": 1,
+  "theme": {
+    "primary": "#166F64",
+    "secondary": "#0C9C80",
+    "background": "#F5FAF7",
+    "surface": "#FFFFFF",
+    "textPrimary": "#173B36",
+    "textSecondary": "#607C73",
+    "accent": "#E5A04C",
+    "tokens": {
+      "onPrimary": "#FFFFFF",
+      "border": "#DBE9E7",
+      "muted": "#F0F7F4",
+      "success": "#167F62",
+      "danger": "#B64040",
+      "warning": "#A56F25",
+      "overlay": "#123A3788",
+      "space": {
+        "xs": 4,
+        "sm": 8,
+        "md": 12,
+        "lg": 16,
+        "xl": 24,
+        "xxl": 32
+      },
+      "font": {
+        "caption": 12,
+        "body": 15,
+        "label": 14,
+        "title": 19,
+        "heading": 24,
+        "hero": 32
+      },
+      "radius": {
+        "sm": 8,
+        "md": 12,
+        "lg": 18,
+        "xl": 24,
+        "pill": 100
+      }
+    }
+  },
+  "tabs": [
+    {
+      "id": "home",
+      "label": {
+        "en": "Home",
+        "hi": "होम",
+        "te": "హోమ్"
+      },
+      "icon": "home",
+      "screen": "home"
+    },
+    {
+      "id": "bookings",
+      "label": {
+        "en": "Bookings",
+        "hi": "बुकिंग",
+        "te": "బుకింగ్స్"
+      },
+      "icon": "calendar",
+      "screen": "bookings"
+    },
+    {
+      "id": "prescriptions",
+      "label": {
+        "en": "Health records",
+        "hi": "स्वास्थ्य रिकॉर्ड",
+        "te": "ఆరోగ్య రికార్డులు"
+      },
+      "icon": "file",
+      "screen": "prescriptions"
+    },
+    {
+      "id": "profile",
+      "label": {
+        "en": "You",
+        "hi": "आप",
+        "te": "మీరు"
+      },
+      "icon": "user",
+      "screen": "profile"
+    }
+  ],
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero_banner",
+      "background": {
+        "kind": "gradient",
+        "value": "#D3F4E9|#F5FAF7"
+      },
+      "title": {
+        "en": "Care that feels closer",
+        "hi": "देखभाल अब और करीब",
+        "te": "మరింత చేరువైన సంరక్షణ"
+      },
+      "items": [
+        {
+          "eyebrow": {
+            "en": "TAPZA CARE • HYDERABAD",
+            "hi": "टैप्ज़ा केयर • हैदराबाद",
+            "te": "టాప్జా కేర్ • హైదరాబాద్"
+          },
+          "greeting": {
+            "en": "Better health, right at home.",
+            "hi": "बेहतर स्वास्थ्य, आपके घर के पास।",
+            "te": "మెరుగైన ఆరోగ్యం, మీ ఇంటి దగ్గరే."
+          },
+          "subtitle": {
+            "en": "Trusted doctors, tests and medicines — thoughtfully in one place.",
+            "hi": "भरोसेमंद डॉक्टर, जाँच और दवाएँ — सब एक जगह।",
+            "te": "నమ్మకమైన వైద్యులు, పరీక్షలు, మందులు — అన్నీ ఒకే చోట."
+          },
+          "cta": {
+            "en": "Book an appointment",
+            "hi": "अपॉइंटमेंट बुक करें",
+            "te": "అపాయింట్‌మెంట్ బుక్ చేయండి"
+          },
+          "icon": "heart"
+        }
+      ]
+    },
+    {
+      "id": "categories",
+      "type": "category_chips",
+      "background": {
+        "kind": "color",
+        "value": "#F5FAF7"
+      },
+      "title": {
+        "en": "What can we help with?",
+        "hi": "हम आपकी क्या मदद करें?",
+        "te": "మేము మీకు ఎలా సహాయపడగలం?"
+      },
+      "items": [
+        {
+          "id": "consult",
+          "label": {
+            "en": "Consult",
+            "hi": "डॉक्टर से सलाह",
+            "te": "వైద్య సంప్రదింపు"
+          },
+          "icon": "stethoscope"
+        },
+        {
+          "id": "lab",
+          "label": {
+            "en": "Lab tests",
+            "hi": "लैब जाँच",
+            "te": "ల్యాబ్ పరీక్షలు"
+          },
+          "icon": "flask"
+        },
+        {
+          "id": "pharmacy",
+          "label": {
+            "en": "Pharmacy",
+            "hi": "फ़ार्मेसी",
+            "te": "ఫార్మసీ"
+          },
+          "icon": "pill"
+        },
+        {
+          "id": "vaccines",
+          "label": {
+            "en": "Vaccines",
+            "hi": "टीके",
+            "te": "టీకాలు"
+          },
+          "icon": "syringe"
+        }
+      ]
+    },
+    {
+      "id": "quick",
+      "type": "quick_actions",
+      "background": {
+        "kind": "color",
+        "value": "#FFFFFF"
+      },
+      "title": {
+        "en": "Your care, made easy",
+        "hi": "आपकी देखभाल अब आसान",
+        "te": "మీ సంరక్షణ మరింత సులభం"
+      },
+      "items": [
+        {
+          "id": "book",
+          "label": {
+            "en": "Book a visit",
+            "hi": "विज़िट बुक करें",
+            "te": "సందర్శన బుక్ చేయండి"
+          },
+          "icon": "calendar",
+          "subtitle": {
+            "en": "In just a few taps",
+            "hi": "बस कुछ टैप में",
+            "te": "కొన్ని ట్యాప్‌లలోనే"
+          }
+        },
+        {
+          "id": "prescriptions",
+          "label": {
+            "en": "Prescriptions",
+            "hi": "पर्चियाँ",
+            "te": "ప్రిస్క్రిప్షన్లు"
+          },
+          "icon": "file",
+          "subtitle": {
+            "en": "All in one place",
+            "hi": "सब एक जगह",
+            "te": "అన్నీ ఒకే చోట"
+          }
+        },
+        {
+          "id": "reminders",
+          "label": {
+            "en": "Reminders",
+            "hi": "दवा रिमाइंडर",
+            "te": "రిమైండర్లు"
+          },
+          "icon": "bell",
+          "subtitle": {
+            "en": "Never miss a dose",
+            "hi": "कोई खुराक न छूटे",
+            "te": "ఒక్క మోతాదూ మిస్ కావద్దు"
+          }
+        },
+        {
+          "id": "family",
+          "label": {
+            "en": "Family care",
+            "hi": "परिवार की देखभाल",
+            "te": "కుటుంబ సంరక్షణ"
+          },
+          "icon": "users",
+          "subtitle": {
+            "en": "For your loved ones",
+            "hi": "आपके प्रियजनों के लिए",
+            "te": "మీ ప్రియమైన వారి కోసం"
+          }
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "service_grid",
+      "background": {
+        "kind": "gradient",
+        "value": "#EAF7F2|#F6FBF9"
+      },
+      "title": {
+        "en": "Popular health services",
+        "hi": "लोकप्रिय स्वास्थ्य सेवाएँ",
+        "te": "ప్రసిద్ధ ఆరోగ్య సేవలు"
+      },
+      "items": [
+        {
+          "id": "general",
+          "name": {
+            "en": "Doctor consultation",
+            "hi": "डॉक्टर परामर्श",
+            "te": "వైద్య సంప్రదింపు"
+          },
+          "priceInr": 399,
+          "icon": "stethoscope",
+          "badge": {
+            "en": "POPULAR",
+            "hi": "लोकप्रिय",
+            "te": "ప్రసిద్ధం"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=480&auto=format&fit=crop"
+        },
+        {
+          "id": "cbc",
+          "name": {
+            "en": "Complete blood count",
+            "hi": "पूर्ण रक्त जाँच (CBC)",
+            "te": "పూర్తి రక్త పరీక్ష (CBC)"
+          },
+          "priceInr": 349,
+          "icon": "flask",
+          "badge": {
+            "en": "AT HOME",
+            "hi": "घर पर",
+            "te": "ఇంటివద్ద"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=480&auto=format&fit=crop"
+        },
+        {
+          "id": "diabetes",
+          "name": {
+            "en": "Diabetes screening",
+            "hi": "मधुमेह जाँच",
+            "te": "మధుమేహ పరీక్ష"
+          },
+          "priceInr": 499,
+          "icon": "heart",
+          "imageUrl": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=480&auto=format&fit=crop"
+        },
+        {
+          "id": "bp",
+          "name": {
+            "en": "BP & wellness check",
+            "hi": "बीपी और स्वास्थ्य जाँच",
+            "te": "బీపీ మరియు ఆరోగ్య పరీక్ష"
+          },
+          "priceInr": 199,
+          "icon": "activity",
+          "badge": {
+            "en": "SAVE 20%",
+            "hi": "20% बचाएँ",
+            "te": "20% ఆదా"
+          },
+          "imageUrl": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=480&auto=format&fit=crop"
+        }
+      ]
+    },
+    {
+      "id": "doctor_band",
+      "type": "doctor_carousel",
+      "background": {
+        "kind": "color",
+        "value": "#FFFFFF"
+      },
+      "title": {
+        "en": "Doctors who listen",
+        "hi": "आपकी बात सुनने वाले डॉक्टर",
+        "te": "మీ మాట వినే వైద్యులు"
+      },
+      "items": [
+        "dr_ananya",
+        "dr_arvind",
+        "dr_meera"
+      ]
+    },
+    {
+      "id": "offer",
+      "type": "offer_strip",
+      "background": {
+        "kind": "gradient",
+        "value": "#166F64|#269F87"
+      },
+      "title": {
+        "en": "For your family",
+        "hi": "आपके परिवार के लिए",
+        "te": "మీ కుటుంబం కోసం"
+      },
+      "items": [
+        {
+          "message": {
+            "en": "First consultation? Get ₹100 off your next clinic visit.",
+            "hi": "पहला परामर्श? अगली क्लिनिक विज़िट पर ₹100 की छूट।",
+            "te": "మొదటి సంప్రదింపా? తదుపరి క్లినిక్ సందర్శనపై ₹100 తగ్గింపు."
+          },
+          "icon": "gift",
+          "cta": {
+            "en": "Explore care",
+            "hi": "सेवाएँ देखें",
+            "te": "సేవలు చూడండి"
+          }
+        }
+      ]
+    }
+  ]
+}
