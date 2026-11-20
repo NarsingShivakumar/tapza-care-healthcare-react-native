@@ -283,16 +283,6 @@ This project prioritizes the requested home, booking, and prescription experienc
 
 **Not included or not verified:** real healthcare backend, account authentication, WhatsApp delivery, payments, offline booking synchronization, live clinic inventory, signed APK, real-device screenshots/video, or verified performance measurements. The Family area is a placeholder. Notification delivery has not yet been verified on a physical device in this handoff. These should not be described as production-ready features.
 
-## Submission Checklist
-
-- [ ] Replace `YOUR_USERNAME` in this README with your GitHub username.
-- [ ] Add real PNG screenshots using the filenames in the gallery above.
-- [ ] Record `docs/demo.mp4`, then add its link in the Demo Video section.
-- [ ] Verify `npm run typecheck`, `npm test`, `npm run lint`, and Android build locally.
-- [ ] Generate and test a signed APK, create a GitHub Release, and insert the real download URL.
-- [ ] Update `AI_LOG.md` with the AI prompts you used and decisions you accepted/rejected.
-- [ ] Record your **actual** development/testing time and submit truthful commit history.
-
 ---
 
 <div align="center">
