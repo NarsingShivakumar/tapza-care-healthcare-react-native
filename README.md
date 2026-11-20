@@ -89,9 +89,6 @@ Follow the [official React Native environment setup guide](https://reactnative.d
 git clone https://github.com/YOUR_USERNAME/tapza-care.git
 cd tapza-care
 
-# Create native platform folders on first setup if android/ is absent
-npm run bootstrap:native
-
 # Install dependencies
 npm install
 ```
